@@ -2,60 +2,19 @@
   <button
     class="ei-button"
     :class="{
-    
-        
-    
-             disabled:disabled,
-    
-        
-    
-             circle:circle,
-    
-        
-    
-             autofocus:autofocus,
-    
-        
-    
-             loading:loading,
-    
-        
-    
-             round:round,
-    
-        
-    
-             plain:plain,
-    
-        
-    
-        
-    
-        
-    
-            // 尺寸
-    
-        
-    
-             eiButtonSmall:small,
-    
-        
-    
-             eiButtonMedium:medium,
-    
-        
-    
-             eiButtonMini:mini,
-    
-        
-    
-            elButtonLarge:large
-    
-        
-    
-             //类型
-
-           }"
+    disabled:disabled,
+    circle:circle,
+    autofocus:autofocus,
+    loading:loading,
+    round:round,
+    plain:plain,
+   // 尺寸
+    eiButtonSmall:small,
+    eiButtonMedium:medium,
+    eiButtonMini:mini,
+    elButtonLarge:large
+    //类型
+    }"
     @click="onClick"
   >
     <slot>button</slot>
